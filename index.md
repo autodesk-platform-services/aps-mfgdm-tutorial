@@ -16,7 +16,7 @@ In this tutorial, we'll cover the first steps in your journey with the **MFG Dat
 
 Once we get that covered, we'll run from basic queries to more advanced ones, always using the **Explorer**, just like in the image below.
 
-![sample queries](/mfgdm-api-tutorial/assets/images/getproperties.png)
+![sample queries](/aps-mfgdm-tutorial/assets/images/getproperties.png)
 
 Don't worry if you're not a full-stack web developer. You won't need that level of expertise to follow this tutorial (although it's required to connect with one to build your own app leveraging our APIs).
 

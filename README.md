@@ -6,6 +6,6 @@ It is based on [just the docs](https://just-the-docs.com) for documentation and 
 
 This tutorial leverages mostly the [Explorer's](https://mfgdatamodel-explorer.autodesk.io) in all the steps.
 
-You can check the tutorial at https://adamenagy.github.io/mfgdm-api-tutorial/
+You can check the tutorial at https://adamenagy.github.io/aps-mfgdm-tutorial/
 
 Give it a try and let us know your opinion ;

@@ -11,11 +11,11 @@ permalink: /prerequisites/home/
 Before jumping into action, you need to fulfill a few (but essential) prerequisites to follow these tutorials. **The steps need to be fulfilled in sequence for you to be able to follow this tutorial (only move to the next step after completing the previous one)**:
 
 1. Firstly, you will need a **Fusion Team** account. The **MFG Data Model API** only works for models in a **Team Hub**, so make sure you have that and not just a **Personal Hub**
-![Team Hub](/mfgdm-api-tutorial/assets/images/teamhub.png)
+![Team Hub](/aps-mfgdm-tutorial/assets/images/teamhub.png)
 
 2. If you don't have any good **Fusion** designs to test things with, you can open and save the [sample models](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-access-samples-files-for-Fusion-360-tutorials.html) in your project using **File** -> **Save As** inside **Fusion**.
 
-![Fusion sample models](/mfgdm-api-tutorial/assets/images/samples.jpeg)
+![Fusion sample models](/aps-mfgdm-tutorial/assets/images/samples.jpeg)
 
 Now let's continue with a quick introduction into **GraphQL**.
 
@@ -111,7 +111,7 @@ Before moving to the next step, let's run our very first query.
 
 For that, you just need to go to the **Explorer** app at [https://mfgdatamodel-explorer.autodesk.io/](https://mfgdatamodel-explorer.autodesk.io/), log in, and run the query from the very first panel called **GetHubs**, just like in the image below:
 
-![First Query](/mfgdm-api-tutorial/assets/images/firstquery.png)
+![First Query](/aps-mfgdm-tutorial/assets/images/firstquery.png)
 
 > _We'll get back to GraphQL syntax throughout the queries in the next section. As it's not like the usual **REST** requests, we'll cover the differences and possibilities in parallel, while also learning the supported **MFG Data Model API** queries._
 

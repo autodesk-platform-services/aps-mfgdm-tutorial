@@ -20,11 +20,11 @@ Now let's go through each persona and see what they can do using the API.
 In order to create **property definitions** you need to create an **APS app** that will provide the credentials we need to use: [Create App](https://aps.autodesk.com/en/docs/oauth/v2/tutorials/create-app/) \
 Make sure that the `Callback URL` of the app is set to `https://mfgdatamodel-explorer.autodesk.io/callback/oauth` 
 
-![Callack URL](/mfgdm-api-tutorial/assets/images/callback.png)
+![Callack URL](/aps-mfgdm-tutorial/assets/images/callback.png)
 
 Now make sure the **Explorer** uses these credentials, by going on [this](https://mfgdatamodel-explorer.autodesk.io/credentials) page and providing those credentials for `Client ID` and `Client Secret`. Also, for `APS endpoint` you can use `https://developer.api.autodesk.com` and for `GraphQL endpoint` use `https://developer.api.autodesk.com/beta/graphql` 
 
-![Credentials](/mfgdm-api-tutorial/assets/images/credentials.png)
+![Credentials](/aps-mfgdm-tutorial/assets/images/credentials.png)
 
 ### Create a property definition collection
 
@@ -32,7 +32,7 @@ First we need to create a **collection** that will hold the **property definitio
 
 For the following operation you can either use **2-legged** tokens, or the **APS app**'s owner needs to be logged in so that the **3-legged** token is generated for them. Let's just use a **2-legged** token, which is simpler - see image:
 
-![2-legged calls](/mfgdm-api-tutorial/assets/images/2lo.png)
+![2-legged calls](/aps-mfgdm-tutorial/assets/images/2lo.png)
 
 ```js
 mutation CreatePropertyDefinitionCollection($propDefCollectionName: String!, $description: String) {
@@ -96,7 +96,7 @@ Once we have a **collection**, the **Custom Property Admin** needs to provide an
 
 _Make sure you are not using 2-legged tokens for these operations_
 
-![3-legged calls](/mfgdm-api-tutorial/assets/images/3lo.png)
+![3-legged calls](/aps-mfgdm-tutorial/assets/images/3lo.png)
 
 ### Link collection to our hub
 
@@ -226,19 +226,19 @@ We created a demo app that can help with the work of all 3 personas listed above
 
 You just have to provide your app's credentials, making sure that its `Callback URL` contains `https://mfgdatamodel-demo.autodesk.io/api/auth/callback`
 
-![Credentials](/mfgdm-api-tutorial/assets/images/demo_credentials.png)
+![Credentials](/aps-mfgdm-tutorial/assets/images/demo_credentials.png)
 
 Then you can manage your property definitions and collections:
 
-![Credentials](/mfgdm-api-tutorial/assets/images/demo_properties.png)
+![Credentials](/aps-mfgdm-tutorial/assets/images/demo_properties.png)
 
 In order to list all the hubs you have access to, link property definition collections to them, assign properties to component versions, you need to log in:
 
-![Sign in](/mfgdm-api-tutorial/assets/images/demo_login.png)
+![Sign in](/aps-mfgdm-tutorial/assets/images/demo_login.png)
 
 Then you can check the **Hubs browser**:
 
-![Hubs browser](/mfgdm-api-tutorial/assets/images/demo_hubs.png)
+![Hubs browser](/aps-mfgdm-tutorial/assets/images/demo_hubs.png)
 
 
 It's live here: [https://mfgdatamodel-demo.autodesk.io/](https://mfgdatamodel-demo.autodesk.io/)
