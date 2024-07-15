@@ -22,7 +22,11 @@ Make sure that the `Callback URL` of the app is set to `https://mfgdatamodel-exp
 
 ![Callack URL](/aps-mfgdm-tutorial/assets/images/callback.png)
 
-Now make sure the **Explorer** uses these credentials, by going on [this](https://mfgdatamodel-explorer.autodesk.io/credentials) page and providing those credentials for `Client ID` and `Client Secret`. Also, for `APS endpoint` you can use `https://developer.api.autodesk.com` and for `GraphQL endpoint` use `https://developer.api.autodesk.com/beta/graphql` 
+You also have to make sure that **Parameters API** is enabled for your APS application
+
+![Parameters API](/aps-mfgdm-tutorial/assets/images/parameters-api.png)
+
+Now just add these credentials in the **Explorer** by going on [this](https://mfgdatamodel-explorer.autodesk.io/credentials) page and providing those credentials for `Client ID` and `Client Secret`. Also, for `APS endpoint` you can use `https://developer.api.autodesk.com` and for `GraphQL endpoint` use `https://developer.api.autodesk.com/beta/graphql` 
 
 ![Credentials](/aps-mfgdm-tutorial/assets/images/credentials.png)
 
