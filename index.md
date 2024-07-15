@@ -18,6 +18,10 @@ Once we get that covered, we'll run from basic queries to more advanced ones, al
 
 ![sample queries](/aps-mfgdm-tutorial/assets/images/getproperties.png)
 
+Currently there are two versions of the API: **v1** which is in **production** but will soon be replaced by **v2** that is currently in **public beta**. We will be using the **v2** API in this tutorial, so make sure that's selected in the **Explorer** as well later on:
+
+![v2 api used in Explorer](/aps-mfgdm-tutorial/assets/images/v2-api.png)
+
 Don't worry if you're not a full-stack web developer. You won't need that level of expertise to follow this tutorial (although it's required to connect with one to build your own app leveraging our APIs).
 
 As long as you are familiar with **Fusion** designs and curious about new technologies, you're in good shape to go through the contents shared here.
