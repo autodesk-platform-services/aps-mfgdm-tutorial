@@ -50,7 +50,9 @@ mutation AddUsersToHub($input: AddUsersToHubInput!) {
 
 ## Create new project
 
-Now create a new **project** in the same **hub**
+Now create a new **project** in the same **hub**. You can choose from the same list of types that are available in the UI:
+
+![Create Project](/aps-mfgdm-tutorial/assets/images/create-project.png)
 
 ```js
 mutation CreateProject($hubId: ID!, $name: String!, $type: ProjectTypesEnum!) {
@@ -72,7 +74,7 @@ mutation CreateProject($hubId: ID!, $name: String!, $type: ProjectTypesEnum!) {
 
 ## Add users to project
 
-Then add a user to this newly created **project** as well.
+Then add a user to this newly created **project** as well. 
 
 ```js
 mutation AddUsersToProject($input: AddUsersToProjectInput!) {

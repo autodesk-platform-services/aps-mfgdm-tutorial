@@ -30,7 +30,7 @@ As described at [graphql.org](https://graphql.org/learn/schema/):
 
 > _"Every GraphQL service defines a set of types which completely describe the set of possible data you can query on that service. Then, when queries come in, they are validated and executed against that schema."_
 
-Our API has a schema suitable to address the common data from the MFG industry. The main objects described below:
+Our API has a schema suitable to address the common data from the MFG industry. The main objects are described below:
 
 - **DesignItem**: Represents an item that contains a product design. You could think of it as the file in your project.
 - **DesignItemVersion**: A specific version of a design.
@@ -159,7 +159,7 @@ We are not going to use the alternative representation for the projects in this 
 ## Step 3 - Listing Designs
 
 We can either use one of the designs in the root folder of the project or find the folder it resides in.
-First use the **GetFolders** tab in the **Explorer** to see if you design is there:
+First use the **GetFolders** tab in the **Explorer** to see if your design is there:
 
 ![GET folders](/aps-mfgdm-tutorial/assets/images/getfolders.png)
 
