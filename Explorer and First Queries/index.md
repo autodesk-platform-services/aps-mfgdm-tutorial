@@ -159,7 +159,7 @@ We are not going to use the alternative representation for the projects in this 
 ## Step 3 - Listing Designs
 
 We can either use one of the designs in the root folder of the project or find the folder it resides in.
-First use the **GetFolders** tab in the **Explorer** to see if your design is there:
+First use the **GetFolders** tab in the **Explorer** to see if your design is there. We are also using the `__typename` field which makes it easier to see what kind of object was returned by the `items` field: could be `BasicItem`, `ConfiguredDesignItem`, `DesignItem` or `DrawingItem`.
 
 ![GET folders](/aps-mfgdm-tutorial/assets/images/getfolders.png)
 
