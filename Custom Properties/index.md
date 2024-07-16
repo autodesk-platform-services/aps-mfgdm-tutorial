@@ -85,12 +85,14 @@ mutation CreateDynamicAtVersionPropertyDefinition($input: CreatePropertyDefiniti
 ```
 ```js
 {
-  "propertyDefinitionCollectionId": "NEWLY CREATED COLLECTION'S ID HERE!",
-  "propertyDefinitionName": "material length",
-  "specification": "STRING",
-  "description": "description of this property",
-  "propertyBehavior": "DYNAMIC",
-  "shouldCopy": true
+  "input": {
+    "propertyDefinitionCollectionId": "NEWLY CREATED COLLECTION'S ID HERE!",
+    "name": "material length",
+    "specification": "STRING",
+    "description": "description of this property",
+    "propertyBehavior": "DYNAMIC",
+    "shouldCopy": true
+  }
 }
 ```
 
